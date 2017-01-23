@@ -23,3 +23,14 @@
 * DNS的网络流量和DNS的平均时延
 ---
 ## P2P
+---
+## SPDY与Http2做了哪些改进
+* 降低延迟
+* 头部压缩：user-agent,cookie膨胀
+* server push
+
+---
+## android端的问题
+* 对于使用webview的app来说，需要基于chrome内核的webview才能支持spdy和http2.0，而android系统的webview是从android4.4（KitKat）才改成基于chrome内核的。
+
+* 对于使用native api调用的http请求来说，okhttp是同时支持spdy和http2.0的可行方案。如果使用ALPN，okhttp要求android系统5.0+(实际上，android4.4上就有了ALPN的实现，不过有bug，知道5.0才正式修复)，如果使用NPN，可以从android4.0+开始支持，不过NPN也是属于将要被淘汰的协议。
