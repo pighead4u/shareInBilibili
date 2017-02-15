@@ -5,7 +5,15 @@
 * email：zhuhuanhuan@qccr.com
 ---
 ## 说明
-* HTTP服务器的无状态
+* HTTP使用的是可靠的数据传输协议，因为基于TCP
+* HTTP的无状态
+* web服务器是web资源的宿主，HTTP的方法
+* Internet的多媒体信使，因为它包含不同的数据类型
+* URI：URL和URN
+* 状态码
+* 各种Header
+* web的结构组件：代理，缓存，网关，隧道
+
 ---
 ## HTTP报文格式
 * 请求报文
