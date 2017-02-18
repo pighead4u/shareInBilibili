@@ -35,3 +35,5 @@
 * 浅谈浏览器http的缓存机制：http://www.cnblogs.com/vajoy/p/5341664.html
 * web浏览器的缓存机制：http://www.alloyteam.com/2012/03/web-cache-2-browser-cache/
 * https的七个误解：http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html
+* MDN对http-cache的文档：https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
+* 官方文档：https://tools.ietf.org/html/rfc7234#section-5.3
