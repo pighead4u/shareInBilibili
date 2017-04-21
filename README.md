@@ -6,5 +6,8 @@
 * 跟QQ群里的小伙伴探讨工作上遇到的问题
 * 表达自己的一些个观点
 
-# booklist
+## booklist
 * 共享书单：暂时是放的一些我觉得比较好的书
+
+## gradle4android:
+* gradle的使用小技巧
